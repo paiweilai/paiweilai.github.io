@@ -1,0 +1,259 @@
+<head>
+    <title>Pai-Wei Lai - R&#xe9;sum&#xe9;</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:700,800' rel='stylesheet' type='text/css'>
+    <style>
+        BODY, h1, h2, h3, h4, P, LI, A {
+            font-family: 'PT+Sans', sans-serif;
+            color: #222;
+            text-align: left
+        }
+        BODY {
+            margin-left: 10px;
+            max-width: 700px;
+            padding-bottom: 250px;
+            font-size: 12px;
+        }
+        section {
+            margin: 15px 0;
+            clear: both;
+        }
+        .half {
+            width: 335px;
+            float: left;
+            margin-left: 10px;
+        }
+        section .half:last-child {
+            margin-right: 10px;
+        }
+        h1 {
+            font-size: 2em;
+            font-weight: 800;
+            border-bottom: 1px solid #aaa;
+            margin: 0 0 2px 0;
+            color: #000;
+            font-variant: small-caps;
+            letter-spacing: 2px;
+        }
+
+        h2 { font-size: 1.2em; font-weight: bold; margin-bottom: 2px; }
+        h2:not(:first-child) {
+            margin-top: 10px;
+        }
+
+        h3 { font-size: 1.0em; margin-bottom: 1px; margin-top: 5px; }
+        h4 { font-size: 0.9em; margin-bottom: 2px; font-weight: 600; }
+        h5 { font-size: 0.9em; margin-bottom: 2px; }
+        h3, h4, h5 { margin-left: 10px; }
+
+        P { margin: 3px 10px; }
+        UL { margin: 0 0 2px 30px; }
+        P STRONG { font-weight: 600; }
+        LI { list-style: square; margin-left: 10px; }
+
+        a {
+            text-decoration: none;
+            border-bottom: 1px;
+        }
+        a:hover {
+            border-bottom: 1px dotted #777;
+        }
+
+        em {
+            color: #1278B4;
+        }
+
+        #personal_details { border: 0; }
+        #personal_details UL { margin-left: 0; }
+        #personal_details LI {
+            list-style: none;
+            display: inline;
+            margin: 0 3px 0 0;
+        }
+        #personal_details #github,
+        #personal_details #email,
+        #personal_details #web { float: right; margin-left: 10px }
+        #personal_details #phone,
+
+        #summary P { margin: 0 30px 3px; }
+
+        .half li {
+            margin: 0 10px 0 0;
+        }
+
+        #education SPAN { font-size: 8pt; font-weight: 600; float: right; margin-right: 4px; }
+
+        #work SPAN { font-size: 8pt; font-weight: 600; float: right; margin-right: 4px; }
+        #work UL { width: 85%; margin-bottom: 8px; }
+        
+        #academic SPAN { font-size: 8pt; font-weight: 600; float: right; margin-right: 4px; }
+        #academic UL { width: 85%; margin-bottom: 8px; }
+
+        #publications SPAN { font-size: 8pt; font-weight: 600; float: right; margin-right: 4px; }
+
+        .clear { clear: both; }
+
+    </style>
+</head>
+<body>
+  <section id="personal_details">
+    <h1>Pai-Wei Lai</h1>
+    <ul>
+      <li id="location">San Francisco, CA</li>
+      <li id="phone">732 668 8166</li>
+      <li id="github"><a href="http://github.com/paiweilai">github.com/paiweilai</a></li>
+      <li id="email"><a href="mailto:paiwei.lai@gmail.com">paiwei.lai@gmail.com</a></li>
+      <li id="web"><a href="http://paiweilai.net">paiweilai.net</a></li>
+    </ul>
+  </section>
+
+  <section id="summary">
+  <p>Seeking a <b>Software Engineer</b> role to design and build core <b>infrastructure</b> and <b>backend</b> services
+  that power web and mobile apps.
+  I am a solid computer scientist who is passionate about new technologies and clean code.
+  </p>
+  </section>
+
+  <section id="work">
+      <h2>Work Experience</h2>
+
+      <h3><a href="https://www.yelp.com">Yelp Inc.</a>
+          <span>2014 - now</span>
+      </h3>
+      <h4>Software Engineer (Infra / DistSys / Backend)</h4>
+      <ul>
+          <li>Modernize backend services and implement tools that enable developers to write efficient web and mobile API endpoints
+          <em>- Docker, Swagger, GraphQL</em>
+          </li>
+          <li>Led the reformation of the config file deployment system to empower general developers to modify non-sensitive config parameters of all Yelp's services
+          <em>- Bash, Git, Jenkins, Puppet</em>
+          </li>
+          <li>Designed and constructed a new distributed task queuing system from scratch that processes asynchronous jobs from
+          Yelp's backend services
+          <em>- AWS SQS, Apache Kafka</em>
+          </li>
+          <li>Created <a href="https://engineeringblog.yelp.com/2016/08/undebt-how-we-refactored-3-million-lines-of-code.html">Undebt</a>,
+          a refactoring tool to facilitate new code adoption 
+          (Hackathon winner, #1 trending <em>Python</em> <a href="https://github.com/Yelp/undebt">Github repo</a> the week open-sourced)</li>
+          <li>
+          Performed the vital task of bringing new Yelp's main code to production on bi-weekly basis for 1.5 years</li>
+          <li>Evangelize planning poker to agile teams as a fun way to guide sprint planning and make accurate, consensus estimates
+          <em>- JIRA, Agile planning</em>
+          </li>
+          <li>Mentor newer engineers and student interns; participate in engineer recruiting interviews</li>
+      </ul>
+
+      <h3><a href="http://lingomedia.com/speaking-lab/">Speak2Me Inc.</a><span>2008 - 2009</span></h3>
+      <h4>Software Engineer</h4>
+      <ul>
+          <li>Developed a speech recognition and assessment software to provide interactive conversation practice on a social network web app for English learners
+          <em>- C, Java</em>
+          </li>
+          <li>Trained and manipulated phonetic models and language models to support large vocabulary continuous speech recognition
+          <em>- Matlab, Hidden Markov Model Toolkit</em>
+          </li>
+          <li>Built data analysis tools for editorial staffs to identify poor pronunciation and to provide constructive feedbacks
+          <em>- HTML, CSS, Javascript</em>
+          </li>
+      </ul>
+      
+    </section>
+    <section id="academic">
+      <h2>Academic Experience</h2>
+      <h3><a href="https://www.pnl.gov/">Pacific Northwest National Laboratory</a>
+          <span>2011 Summer / 2012 Summer</span>
+      </h3>
+      <h4><a href="http://hpc.pnnl.gov">Graduate Intern</a></h4>
+      <ul>
+          <li>Improved tensor computation speed by 2.5x in NWChem software with a new load-balancing algorithm</li>
+          <li>Published the results in 2013 Supercomputing Conference
+          (<a href="https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computingsystems&venue=s_dKfSWgBmwJ.2016">#6 in Computer Systems</a>)
+          <em>- C++, Fortran</em></li>
+      </ul>
+
+      <h3><a href="https://www.osu.edu">The Ohio State University</a>
+          <span>2009 - 2014</span>
+      </h3>
+      <h4><a href="http://hpcrl.cse.ohio-state.edu/">Graduate Research Associate</a></h4>
+      <ul>
+          <li>Researched in high performance computing and parallel programming models
+          <em>- Python, C++, MPI, GPGPU, Global Arrays, Tensor Contraction Engine</em>
+          </li>
+          <li>Published 6 research <a href="http://dblp.uni-trier.de/pers/hd/l/Lai:Pai=Wei">papers</a> on top-tier conferences
+          </li>
+      </ul>
+
+      <h3>The Ohio State University <a href="http://twsa.org.ohio-state.edu/">Taiwanese Student Association</a>
+          <span>2010 - 2011</span>
+      </h3>
+      <h4>President</a></h4>
+      <ul>
+          <li>Primary contact and the spokesperson for the organization of more than 100 members</li>
+          <li>Set annual and quarterly goals and led the organization to provide social and cultural activities in campus</li>
+      </ul>
+
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <h3><b>Ph.D. in <a href="https://cse.osu.edu/">Computer Science and Engineering</a></b>,
+        <a href="https://www.osu.edu">The Ohio State University</a> (GPA: 3.7)
+        <span>2009 - 2014</span>
+    </h3>
+    <h3>M.S. in <a href="http://web-en.cs.nthu.edu.tw/">Computer Science</a>,
+        <a href="http://nthu-en.web.nthu.edu.tw/">National Tsing Hua University</a>, Taiwan (GPA:3.9)
+        <span>2005 - 2007</span>
+    </h3>
+    <h3>B.S. in Computer Science, National Tsing Hua University, Taiwan (GPA:3.6)<span>2001 - 2005</span></h3>
+  </section>
+
+  <section id="publications">
+  <h2>
+      <a href="https://scholar.google.com/citations?user=9Lcm2kMAAAAJ&hl=en">Publications</a>
+  </h2>
+
+    <h3>A Framework for Performance Optimization of Tensor Contraction Expressions
+        <span><a href="https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:osu1408968185">Ph.D. Dissertation 2014</a></span>
+    </h3>
+<!--    <h5><b>P.-W. Lai</b> | Advisor: <a href="http://web.cse.ohio-state.edu/~saday/">P. Sadayappan</a></h5>
+-->
+    <h3>A Fast Implementation of MLR-MCL Algorithm on Multi-core Processors
+        <span><a href="http://www.hipc.org/hipc2014/">HiPC 2014</a></span>
+    </h3>
+<!--    <h5>Qingpeng Niu, <b>P.-W. Lai</b>, S. M. Faisal, S. Parthasarathy, P. Sadayappan</h5>
+-->
+    <h3>A Communication-Optimal Framework for Contracting Distributed Tensors
+        <span><a href="http://sc14.supercomputing.org/schedule/event_detail-evid=pap287.html">SC 2014</a></span>
+    </h3>
+<!--    <h5>S. Rajbhandari, A. Nikam, <b>P.-W. Lai</b>, K. Stock, S. Krishnamoorthy, P. Sadayappan</h5>
+-->
+    <h3>CAST: Contraction Algorithm for Symmetric Tensors
+        <span><a href="http://icpp.cs.umn.edu/">ICPP 2014</a></span>
+    </h3>
+<!--    <h5>S. Rajbhandari, A. Nikam, <b>P.-W. Lai</b>, K. Stock, S. Krishnamoorthy, P. Sadayappan</h5>
+-->
+    <h3>Accelerating Strassen-Winograd&#39s Matrix Multiplication Algorithm on GPUs
+        <span><a href="http://www.hipc.org/hipc2013/">HiPC 2013</a></span>
+    </h3>
+<!--    <h5><b>P.-W. Lai</b>, H. Arafat, V. Elango, P. Sadayappan</h5>
+-->
+    <h3>A Framework for Load-balancing of Tensor Contraction Expressions via Dynamic Task Partitioning
+        <span><a href="http://sc13.supercomputing.org/schedule/event_detail.php-evid=pap599.html">SC 2013</a></span>
+    </h3>
+<!--    <h5><b>P.-W. Lai</b>, K. Stock, S. Rajbhandari, S. Krishnamoorthy, P. Sadayappan</h5>
+-->
+    <h3>Effective Utilization of Tensor Symmetry in Operation Optimization of Tensor Contraction Expressions
+        <span><a href="http://www.iccs-meeting.org/iccs2012/index.html">ICCS 2012</a></span>
+    </h3>
+<!--    <h5><b>P.-W. Lai</b>, H. Zhang, S. Rajbhandari, E. Valeev, K. Kowalski, P. Sadayappan</h5>
+-->
+    <h3>On the Detection of Retroflex and Non-retroflex for Mandarin Chinese
+        <span><a href="http://140.113.39.130/cgi-bin/gs32/hugsweb.cgi?o=dnthucdr&s=%22GH000944332%22.id.&">Master&#39s Thesis 2007</a></span>
+    </h3>
+<!--    <h5><b>P.-W. Lai</b> | Advisor: <a href="https://scholar.google.com/citations?user=xPAxmk0AAAAJ&hl=en">J.-S. Jang</a></h5>
+-->
+  </section>
+
+  <script src="../js/ga.js"></script>
+</body>
+</html>
